@@ -66,6 +66,7 @@ env:
 - PKG_NAME=scscp
 - PKG_NAME=semigroups
 - PKG_NAME=simpcomp
+- PKG_NAME=smallgrp
 - PKG_NAME=smallsemi
 - PKG_NAME=spinsym
 - PKG_NAME=tomlib
