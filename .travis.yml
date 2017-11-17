@@ -19,8 +19,6 @@ env:
 - PKG_NAME=forms
 - PKG_NAME=fplsa
 - PKG_NAME=grape
-- PKG_NAME=groupoids
-- PKG_NAME=guarana
 - PKG_NAME=guava
 - PKG_NAME=idrel
 - PKG_NAME=intpic
