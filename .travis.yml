@@ -16,6 +16,7 @@ env:
 - PKG_NAME=digraphs
 - PKG_NAME=example
 - PKG_NAME=factint
+- PKG_NAME=fining
 - PKG_NAME=forms
 - PKG_NAME=fplsa
 - PKG_NAME=grape
