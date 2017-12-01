@@ -4,6 +4,7 @@ language: c
 
 env:
 - PKG_NAME=ace
+- PKG_NAME=anupq
 - PKG_NAME=automgrp
 - PKG_NAME=browse
 - PKG_NAME=circle
@@ -32,6 +33,7 @@ env:
 - PKG_NAME=orb
 - PKG_NAME=patternclass
 - PKG_NAME=permut
+- PKG_NAME=polenta
 - PKG_NAME=primgrp
 - PKG_NAME=qpa
 - PKG_NAME=scscp
