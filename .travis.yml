@@ -39,6 +39,7 @@ env:
 - PKG_NAME=scscp
 - PKG_NAME=smallsemi
 - PKG_NAME=spinsym
+- PKG_NAME=xmod
 
 services:
   - docker
