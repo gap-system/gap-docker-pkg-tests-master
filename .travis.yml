@@ -4,6 +4,7 @@ language: c
 
 env:
 - PKG_NAME=ace
+- PKG_NAME=alnuth
 - PKG_NAME=anupq
 - PKG_NAME=automgrp
 - PKG_NAME=browse
@@ -18,6 +19,7 @@ env:
 - PKG_NAME=example
 - PKG_NAME=factint
 - PKG_NAME=fining
+- PKG_NAME=float
 - PKG_NAME=forms
 - PKG_NAME=fplsa
 - PKG_NAME=grape
@@ -28,6 +30,7 @@ env:
 - PKG_NAME=json
 - PKG_NAME=kan
 - PKG_NAME=laguna
+- PKG_NAME=normalizinterface
 - PKG_NAME=numericalsgps
 - PKG_NAME=openmath
 - PKG_NAME=orb
@@ -40,6 +43,7 @@ env:
 - PKG_NAME=smallsemi
 - PKG_NAME=spinsym
 - PKG_NAME=xmod
+- PKG_NAME=zeromqinterface
 
 services:
   - docker
