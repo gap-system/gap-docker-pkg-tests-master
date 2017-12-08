@@ -24,6 +24,7 @@ env:
 - PKG_NAME=fplsa
 - PKG_NAME=grape
 - PKG_NAME=guava
+- PKG_NAME=hap
 - PKG_NAME=idrel
 - PKG_NAME=intpic
 - PKG_NAME=irredsol
@@ -38,10 +39,13 @@ env:
 - PKG_NAME=permut
 - PKG_NAME=polenta
 - PKG_NAME=primgrp
+- PKG_NAME=rcwa
+- PKG_NAME=resclasses
 - PKG_NAME=qpa
 - PKG_NAME=scscp
 - PKG_NAME=smallsemi
 - PKG_NAME=spinsym
+- PKG_NAME=utils
 - PKG_NAME=xmod
 - PKG_NAME=zeromqinterface
 
