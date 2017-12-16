@@ -3,58 +3,70 @@ sudo: required
 language: c
 
 env:
-- PKG_NAME=ace
-- PKG_NAME=alnuth
-- PKG_NAME=anupq
-- PKG_NAME=automgrp
-- PKG_NAME=browse
-- PKG_NAME=circle
-- PKG_NAME=cohomolo
-- PKG_NAME=congruence
-- PKG_NAME=crisp
-- PKG_NAME=crypting
-- PKG_NAME=cubefree
-- PKG_NAME=cvec
-- PKG_NAME=digraphs
-- PKG_NAME=example
-- PKG_NAME=factint
-- PKG_NAME=fining
-- PKG_NAME=float
-- PKG_NAME=forms
-- PKG_NAME=fplsa
-- PKG_NAME=grape
-- PKG_NAME=guava
-- PKG_NAME=hap
-- PKG_NAME=idrel
-- PKG_NAME=intpic
-- PKG_NAME=irredsol
-- PKG_NAME=json
-- PKG_NAME=kan
-- PKG_NAME=laguna
-- PKG_NAME=normalizinterface
-- PKG_NAME=numericalsgps
-- PKG_NAME=openmath
-- PKG_NAME=orb
-- PKG_NAME=patternclass
-- PKG_NAME=permut
-- PKG_NAME=polenta
-- PKG_NAME=primgrp
-- PKG_NAME=rcwa
-- PKG_NAME=resclasses
-- PKG_NAME=qpa
-- PKG_NAME=scscp
-- PKG_NAME=smallsemi
-- PKG_NAME=spinsym
-- PKG_NAME=utils
-- PKG_NAME=xmod
-- PKG_NAME=zeromqinterface
+  global:
+    # for the latest public release
+    # - GAPCONTAINER="gapsystem/gap-docker"
+    # - GAPDIRNAME="gap4r8"
+    # for the tests of the stable-4.8 branch
+    # - GAPCONTAINER="gapsystem/gap-docker-stable"
+    # - GAPDIRNAME="gap-stable-4.8"
+    # for the tests of the master branch
+    - GAPCONTAINER="gapsystem/gap-docker-master"
+    - GAPDIRNAME="gap-master"
+
+  matrix:
+    - PKG_NAME=ace
+    - PKG_NAME=alnuth
+    - PKG_NAME=anupq
+    - PKG_NAME=automgrp
+    - PKG_NAME=browse
+    - PKG_NAME=circle
+    - PKG_NAME=cohomolo
+    - PKG_NAME=congruence
+    - PKG_NAME=crisp
+    - PKG_NAME=crypting
+    - PKG_NAME=cubefree
+    - PKG_NAME=cvec
+    - PKG_NAME=digraphs
+    - PKG_NAME=example
+    - PKG_NAME=factint
+    - PKG_NAME=fining
+    - PKG_NAME=float
+    - PKG_NAME=forms
+    - PKG_NAME=fplsa
+    - PKG_NAME=grape
+    - PKG_NAME=guava
+    - PKG_NAME=hap
+    - PKG_NAME=idrel
+    - PKG_NAME=intpic
+    - PKG_NAME=irredsol
+    - PKG_NAME=json
+    - PKG_NAME=kan
+    - PKG_NAME=laguna
+    - PKG_NAME=normalizinterface
+    - PKG_NAME=numericalsgps
+    - PKG_NAME=openmath
+    - PKG_NAME=orb
+    - PKG_NAME=patternclass
+    - PKG_NAME=permut
+    - PKG_NAME=polenta
+    - PKG_NAME=primgrp
+    - PKG_NAME=rcwa
+    - PKG_NAME=resclasses
+    - PKG_NAME=qpa
+    - PKG_NAME=scscp
+    - PKG_NAME=smallsemi
+    - PKG_NAME=spinsym
+    - PKG_NAME=utils
+    - PKG_NAME=xmod
+    - PKG_NAME=zeromqinterface
 
 services:
   - docker
 
 before_install:
-- docker pull gapsystem/gap-docker-master
+- docker pull ${GAPCONTAINER}
 
 script:
     - docker version
-    - docker run -t gapsystem/gap-docker-master /bin/sh -c "cd /home/gap/inst/gap-master/; sudo wget https://raw.githubusercontent.com/gap-system/gap-docker-pkg-tests/master/testpackage.g; sudo wget https://raw.githubusercontent.com/gap-system/gap-docker-pkg-tests/master/testpackage.sh; sudo chmod u+x testpackage.sh ; sudo ./testpackage.sh ${PKG_NAME}; cat dev/log/*; if [ \`cat dev/log/*.${PKG_NAME} | grep -c '#I  No errors detected while testing'\` != '3' ]; then exit 1; fi;"
+    - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "GAPDIRNAME=${GAPDIRNAME} PKG_NAME=${PKG_NAME} TERM=dumb LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
