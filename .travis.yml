@@ -58,7 +58,6 @@ env:
     - PKG_NAME=spinsym
     - PKG_NAME=utils
     - PKG_NAME=xmod
-    - PKG_NAME=zeromqinterface
 
 services:
   - docker
