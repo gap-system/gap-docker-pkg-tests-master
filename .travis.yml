@@ -36,12 +36,14 @@ env:
     - PKG_NAME=grape
     - PKG_NAME=guava
     - PKG_NAME=hap
+    - PKG_NAME=help
     - PKG_NAME=idrel
     - PKG_NAME=intpic
     - PKG_NAME=irredsol
     - PKG_NAME=json
     - PKG_NAME=kan
     - PKG_NAME=laguna
+    - PKG_NAME=lpres
     - PKG_NAME=normalizinterface
     - PKG_NAME=numericalsgps
     - PKG_NAME=openmath
