@@ -19,7 +19,6 @@ env:
     - PKG_NAME=alnuth
     - PKG_NAME=anupq
     - PKG_NAME=automgrp
-    - PKG_NAME=browse
     - PKG_NAME=circle
     - PKG_NAME=cohomolo
     - PKG_NAME=congruence
