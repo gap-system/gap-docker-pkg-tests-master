@@ -35,7 +35,6 @@ env:
     - PKG_NAME=forms
     - PKG_NAME=fplsa
     - PKG_NAME=grape
-    - PKG_NAME=groupoids
     - PKG_NAME=guava
     - PKG_NAME=hap
     - PKG_NAME=help
@@ -47,7 +46,6 @@ env:
     - PKG_NAME=laguna
     - PKG_NAME=lpres
     - PKG_NAME=normalizinterface
-    - PKG_NAME=nq
     - PKG_NAME=numericalsgps
     - PKG_NAME=openmath
     - PKG_NAME=orb
@@ -63,6 +61,7 @@ env:
     - PKG_NAME=spinsym
     - PKG_NAME=utils
     - PKG_NAME=xmod
+    - PKG_NAME=zeromqinterface
 
 services:
   - docker
