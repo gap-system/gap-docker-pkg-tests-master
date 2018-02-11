@@ -34,6 +34,7 @@ env:
     - PKG_NAME=float
     - PKG_NAME=forms
     - PKG_NAME=fplsa
+    - PKG_NAME=genss
     - PKG_NAME=grape
     - PKG_NAME=guava
     - PKG_NAME=hap
@@ -60,6 +61,7 @@ env:
     - PKG_NAME=simpcomp
     - PKG_NAME=smallsemi
     - PKG_NAME=spinsym
+    - PKG_NAME=toric
     - PKG_NAME=utils
     - PKG_NAME=xmod
     - PKG_NAME=zeromqinterface
