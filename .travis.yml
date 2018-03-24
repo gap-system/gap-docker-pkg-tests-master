@@ -16,10 +16,13 @@ env:
 
   matrix:
     - PKG_NAME=ace
+    - PKG_NAME=aclib
     - PKG_NAME=alnuth
     - PKG_NAME=anupq
     - PKG_NAME=automgrp
+    - PKG_NAME=autpgrp
     - PKG_NAME=browse
+    - PKG_NAME=carat
     - PKG_NAME=circle
     - PKG_NAME=cohomolo
     - PKG_NAME=congruence
@@ -34,10 +37,14 @@ env:
     - PKG_NAME=factint
     - PKG_NAME=fining
     - PKG_NAME=float
+    - PKG_NAME=format
     - PKG_NAME=forms
     - PKG_NAME=fplsa
+    - PKG_NAME=fr
     - PKG_NAME=genss
     - PKG_NAME=grape
+    - PKG_NAME=groupoids
+    - PKG_NAME=grpconst
     - PKG_NAME=guava
     - PKG_NAME=hap
     - PKG_NAME=help
@@ -48,24 +55,29 @@ env:
     - PKG_NAME=kan
     - PKG_NAME=laguna
     - PKG_NAME=lpres
+    - PKG_NAME=modisom
     - PKG_NAME=normalizinterface
+    - PKG_NAME=nq
     - PKG_NAME=numericalsgps
     - PKG_NAME=openmath
     - PKG_NAME=orb
     - PKG_NAME=patternclass
     - PKG_NAME=permut
     - PKG_NAME=polenta
+    - PKG_NAME=polycyclic
     - PKG_NAME=primgrp
     - PKG_NAME=qpa
     - PKG_NAME=rcwa
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
+    - PKG_NAME=sgpviz
     - PKG_NAME=simpcomp
     - PKG_NAME=smallsemi
     - PKG_NAME=spinsym
     - PKG_NAME=toric
     - PKG_NAME=utils
     - PKG_NAME=xmod
+    - PKG_NAME=xmodalg
     - PKG_NAME=zeromqinterface
 
 services:
