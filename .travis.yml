@@ -70,6 +70,7 @@ env:
     - PKG_NAME=primgrp
     - PKG_NAME=qaos
     - PKG_NAME=qpa
+    - PKG_NAME=radiroot
     - PKG_NAME=rcwa
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
