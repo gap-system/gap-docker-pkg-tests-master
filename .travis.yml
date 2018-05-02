@@ -81,6 +81,7 @@ env:
     - PKG_NAME=spinsym
     - PKG_NAME=toric
     - PKG_NAME=unipot
+    - PKG_NAME=unitlib
     - PKG_NAME=utils
     - PKG_NAME=xmod
     - PKG_NAME=xmodalg
