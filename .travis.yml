@@ -68,12 +68,14 @@ env:
     - PKG_NAME=polenta
     - PKG_NAME=polycyclic
     - PKG_NAME=primgrp
+    - PKG_NAME=profiling
     - PKG_NAME=qaos
     - PKG_NAME=qpa
     - PKG_NAME=radiroot
     - PKG_NAME=rcwa
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
+    - PKG_NAME=semigroups
     - PKG_NAME=sgpviz
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
@@ -83,6 +85,7 @@ env:
     - PKG_NAME=unipot
     - PKG_NAME=unitlib
     - PKG_NAME=utils
+    - PKG_NAME=uuid
     - PKG_NAME=xmod
     - PKG_NAME=xmodalg
     - PKG_NAME=zeromqinterface
