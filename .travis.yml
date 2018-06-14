@@ -28,7 +28,6 @@ env:
     - PKG_NAME=congruence
     - PKG_NAME=crisp
     - PKG_NAME=crypting
-    - PKG_NAME=cryst
     - PKG_NAME=crystcat
     - PKG_NAME=cubefree
     - PKG_NAME=cvec
@@ -41,7 +40,6 @@ env:
     - PKG_NAME=format
     - PKG_NAME=forms
     - PKG_NAME=fplsa
-    - PKG_NAME=fr
     - PKG_NAME=genss
     - PKG_NAME=grape
     - PKG_NAME=groupoids
@@ -59,7 +57,6 @@ env:
     - PKG_NAME=lpres
     - PKG_NAME=modisom
     - PKG_NAME=normalizinterface
-    - PKG_NAME=nq
     - PKG_NAME=numericalsgps
     - PKG_NAME=openmath
     - PKG_NAME=orb
@@ -76,7 +73,6 @@ env:
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
     - PKG_NAME=semigroups
-    - PKG_NAME=sgpviz
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
     - PKG_NAME=sophus
@@ -87,7 +83,6 @@ env:
     - PKG_NAME=utils
     - PKG_NAME=uuid
     - PKG_NAME=xmod
-    - PKG_NAME=xmodalg
     - PKG_NAME=zeromqinterface
 
 services:
