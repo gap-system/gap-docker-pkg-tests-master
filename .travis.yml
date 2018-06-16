@@ -21,7 +21,6 @@ env:
     - PKG_NAME=anupq
     - PKG_NAME=automgrp
     - PKG_NAME=autpgrp
-    - PKG_NAME=browse
     - PKG_NAME=carat
     - PKG_NAME=circle
     - PKG_NAME=cohomolo
