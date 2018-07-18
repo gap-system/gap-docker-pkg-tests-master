@@ -31,7 +31,6 @@ env:
     - PKG_NAME=cubefree
     - PKG_NAME=cvec
     - PKG_NAME=digraphs
-    - PKG_NAME=example
     - PKG_NAME=factint
     - PKG_NAME=fga
     - PKG_NAME=fining
@@ -53,7 +52,6 @@ env:
     - PKG_NAME=kan
     - PKG_NAME=laguna
     - PKG_NAME=liealgdb
-    - PKG_NAME=lpres
     - PKG_NAME=modisom
     - PKG_NAME=normalizinterface
     - PKG_NAME=numericalsgps
@@ -71,7 +69,6 @@ env:
     - PKG_NAME=rcwa
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
-    - PKG_NAME=semigroups
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
     - PKG_NAME=sophus
