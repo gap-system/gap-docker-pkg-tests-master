@@ -31,6 +31,7 @@ env:
     - PKG_NAME=cubefree
     - PKG_NAME=cvec
     - PKG_NAME=digraphs
+    - PKG_NAME=example
     - PKG_NAME=factint
     - PKG_NAME=fga
     - PKG_NAME=fining
@@ -49,6 +50,7 @@ env:
     - PKG_NAME=intpic
     - PKG_NAME=irredsol
     - PKG_NAME=json
+    - PKG_NAME=jupyterkernel
     - PKG_NAME=kan
     - PKG_NAME=laguna
     - PKG_NAME=liealgdb
