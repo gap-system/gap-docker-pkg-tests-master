@@ -30,6 +30,7 @@ env:
     - PKG_NAME=crystcat
     - PKG_NAME=cubefree
     - PKG_NAME=cvec
+    - PKG_NAME=datastructures
     - PKG_NAME=digraphs
     - PKG_NAME=example
     - PKG_NAME=factint
