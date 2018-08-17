@@ -61,7 +61,6 @@ env:
     - PKG_NAME=openmath
     - PKG_NAME=orb
     - PKG_NAME=patternclass
-    - PKG_NAME=permut
     - PKG_NAME=polenta
     - PKG_NAME=polycyclic
     - PKG_NAME=primgrp
