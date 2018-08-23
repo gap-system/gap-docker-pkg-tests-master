@@ -62,6 +62,7 @@ env:
     - PKG_NAME=openmath
     - PKG_NAME=orb
     - PKG_NAME=patternclass
+    - PKG_NAME=permut
     - PKG_NAME=polenta
     - PKG_NAME=polycyclic
     - PKG_NAME=primgrp
@@ -72,6 +73,7 @@ env:
     - PKG_NAME=rcwa
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
+    - PKG_NAME=sglppow
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
     - PKG_NAME=sophus
