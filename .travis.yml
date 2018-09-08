@@ -29,8 +29,10 @@ env:
     - PKG_NAME=crypting
     - PKG_NAME=crystcat
     - PKG_NAME=cubefree
+    - PKG_NAME=curlinterface
     - PKG_NAME=cvec
     - PKG_NAME=datastructures
+    - PKG_NAME=deepthought
     - PKG_NAME=digraphs
     - PKG_NAME=example
     - PKG_NAME=factint
@@ -79,11 +81,13 @@ env:
     - PKG_NAME=sophus
     - PKG_NAME=spinsym
     - PKG_NAME=toric
+    - PKG_NAME=transgrp
     - PKG_NAME=unipot
     - PKG_NAME=unitlib
     - PKG_NAME=utils
     - PKG_NAME=uuid
     - PKG_NAME=xmod
+    - PKG_NAME=xmodalg
     - PKG_NAME=zeromqinterface
 
 services:
