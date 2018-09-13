@@ -47,6 +47,7 @@ env:
     - PKG_NAME=grpconst
     - PKG_NAME=guava
     - PKG_NAME=hap
+    - PKG_NAME=hecke
     - PKG_NAME=help
     - PKG_NAME=idrel
     - PKG_NAME=intpic
@@ -57,6 +58,7 @@ env:
     - PKG_NAME=kan
     - PKG_NAME=laguna
     - PKG_NAME=liealgdb
+    - PKG_NAME=matgrp
     - PKG_NAME=modisom
     - PKG_NAME=normalizinterface
     - PKG_NAME=nq
@@ -77,6 +79,7 @@ env:
     - PKG_NAME=scscp
     - PKG_NAME=semigroups
     - PKG_NAME=sglppow
+    - PKG_NAME=singular
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
     - PKG_NAME=sophus
