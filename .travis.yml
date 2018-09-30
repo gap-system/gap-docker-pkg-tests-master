@@ -19,6 +19,8 @@ env:
     - PKG_NAME=aclib
     - PKG_NAME=alnuth
     - PKG_NAME=anupq
+    - PKG_NAME=autodoc
+    - PKG_NAME=automata
     - PKG_NAME=automgrp
     - PKG_NAME=autpgrp
     - PKG_NAME=carat
@@ -31,6 +33,7 @@ env:
     - PKG_NAME=cubefree
     - PKG_NAME=cvec
     - PKG_NAME=datastructures
+    - PKG_NAME=deepthought
     - PKG_NAME=digraphs
     - PKG_NAME=example
     - PKG_NAME=factint
@@ -45,6 +48,7 @@ env:
     - PKG_NAME=grape
     - PKG_NAME=groupoids
     - PKG_NAME=grpconst
+    - PKG_NAME=guarana
     - PKG_NAME=guava
     - PKG_NAME=hap
     - PKG_NAME=hecke
@@ -58,6 +62,8 @@ env:
     - PKG_NAME=kan
     - PKG_NAME=laguna
     - PKG_NAME=liealgdb
+    - PKG_NAME=lpres
+    - PKG_NAME=mapclass
     - PKG_NAME=matgrp
     - PKG_NAME=modisom
     - PKG_NAME=normalizinterface
@@ -75,6 +81,7 @@ env:
     - PKG_NAME=qpa
     - PKG_NAME=radiroot
     - PKG_NAME=rcwa
+    - PKG_NAME=recog
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
     - PKG_NAME=semigroups
