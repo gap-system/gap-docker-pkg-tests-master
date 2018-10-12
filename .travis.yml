@@ -27,6 +27,7 @@ env:
     - PKG_NAME=circle
     - PKG_NAME=cohomolo
     - PKG_NAME=congruence
+    - PKG_NAME=crime
     - PKG_NAME=crisp
     - PKG_NAME=crypting
     - PKG_NAME=crystcat
@@ -62,6 +63,7 @@ env:
     - PKG_NAME=kan
     - PKG_NAME=laguna
     - PKG_NAME=liealgdb
+    - PKG_NAME=liepring
     - PKG_NAME=lpres
     - PKG_NAME=mapclass
     - PKG_NAME=matgrp
@@ -97,6 +99,7 @@ env:
     - PKG_NAME=unitlib
     - PKG_NAME=utils
     - PKG_NAME=uuid
+    - PKG_NAME=wedderga
     - PKG_NAME=xmod
     - PKG_NAME=xmodalg
     - PKG_NAME=zeromqinterface
