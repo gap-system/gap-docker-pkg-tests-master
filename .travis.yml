@@ -30,8 +30,10 @@ env:
     - PKG_NAME=crime
     - PKG_NAME=crisp
     - PKG_NAME=crypting
+    - PKG_NAME=cryst
     - PKG_NAME=crystcat
     - PKG_NAME=cubefree
+    - PKG_NAME=curlinterface
     - PKG_NAME=cvec
     - PKG_NAME=datastructures
     - PKG_NAME=deepthought
@@ -88,11 +90,13 @@ env:
     - PKG_NAME=scscp
     - PKG_NAME=semigroups
     - PKG_NAME=sglppow
+    - PKG_NAME=simpcomp
     - PKG_NAME=singular
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
     - PKG_NAME=sophus
     - PKG_NAME=spinsym
+    - PKG_NAME=tomlib
     - PKG_NAME=toric
     - PKG_NAME=transgrp
     - PKG_NAME=unipot
