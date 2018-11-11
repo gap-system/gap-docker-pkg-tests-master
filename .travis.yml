@@ -67,6 +67,7 @@ env:
     - PKG_NAME=laguna
     - PKG_NAME=liealgdb
     - PKG_NAME=liepring
+    - PKG_NAME=loops
     - PKG_NAME=lpres
     - PKG_NAME=mapclass
     - PKG_NAME=matgrp
@@ -96,6 +97,7 @@ env:
     - PKG_NAME=singular
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
+    - PKG_NAME=sonata
     - PKG_NAME=sophus
     - PKG_NAME=spinsym
     - PKG_NAME=tomlib
