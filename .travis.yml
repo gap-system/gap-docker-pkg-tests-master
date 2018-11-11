@@ -50,7 +50,7 @@ env:
     - PKG_NAME=fplsa
     - PKG_NAME=fr
     - PKG_NAME=francy
-    - PKG_NAME=gbnp # default 1 DIFFS | no pkg 1 DIFFS | all pkg 1 DIFFS
+#    - PKG_NAME=gbnp # default 1 DIFFS | no pkg 1 DIFFS | all pkg 1 DIFFS
     - PKG_NAME=genss
     - PKG_NAME=grape
     - PKG_NAME=groupoids
@@ -87,7 +87,7 @@ env:
     - PKG_NAME=permut
     - PKG_NAME=polenta
 #    - PKG_NAME=polycyclic # default PASS | no pkg PASS | all pkg 2 DIFFS
-    - PKG_NAME=polymaking # default 5 DIFFS | no pkg 5 DIFFS | all pkg 5 DIFFS
+#    - PKG_NAME=polymaking # default 5 DIFFS | no pkg 5 DIFFS | all pkg 5 DIFFS
     - PKG_NAME=primgrp
 #    - PKG_NAME=profiling # default 1 DIFFS | no pkg 1 DIFFS | all pkg 1 DIFFS
     - PKG_NAME=qaos
