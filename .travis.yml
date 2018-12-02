@@ -70,13 +70,13 @@ env:
     - PKG_NAME=jupyterviz
     - PKG_NAME=kan
     - PKG_NAME=kbmag
-#    - PKG_NAME=laguna # default 2 DIFFS | no pkg 2 DIFFS | all pkg 2 DIFFS
+    - PKG_NAME=laguna
     - PKG_NAME=liealgdb
     - PKG_NAME=liepring
     - PKG_NAME=loops
-#    - PKG_NAME=lpres # default 21 DIFFS | no pkg 21 DIFFS | all pkg 21 DIFFS
+    - PKG_NAME=lpres
     - PKG_NAME=mapclass
-#    - PKG_NAME=matgrp # default 1 DIFFS | no pkg 1 DIFFS | all pkg 1 DIFFS
+    - PKG_NAME=matgrp
     - PKG_NAME=modisom
     - PKG_NAME=normalizinterface
 #    - PKG_NAME=nq # default 7 DIFFS | no pkg 7 DIFFS | all pkg 7 DIFFS
