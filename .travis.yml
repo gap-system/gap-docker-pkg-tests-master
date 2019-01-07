@@ -54,13 +54,13 @@ env:
     - PKG_NAME=genss
     - PKG_NAME=grape
     - PKG_NAME=groupoids
-#    - PKG_NAME=grpconst # time out in Travis
+    - PKG_NAME=grpconst
 #    - PKG_NAME=guarana # default 16 DIFFS | no pkg 16 DIFFS | all pkg 16 DIFFS
     - PKG_NAME=guava
     - PKG_NAME=hap
 #    - PKG_NAME=hapcryst # default 9 DIFFS | no pkg 9 DIFFS | all pkg 9 DIFFS
     - PKG_NAME=hecke
-    - PKG_NAME=help
+#    - PKG_NAME=help # see https://github.com/gap-packages/HeLP/issues/3
     - PKG_NAME=idrel
     - PKG_NAME=intpic
     - PKG_NAME=io
