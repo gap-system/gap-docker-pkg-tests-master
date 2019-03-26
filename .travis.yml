@@ -87,7 +87,7 @@ env:
     - PKG_NAME=numericalsgps
     - PKG_NAME=openmath
     - PKG_NAME=orb
-    - PKG_NAME=packagemanager
+#    - PKG_NAME=packagemanager
     - PKG_NAME=patternclass
     - PKG_NAME=permut
     - PKG_NAME=polenta
