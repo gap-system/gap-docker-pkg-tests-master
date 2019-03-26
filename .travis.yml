@@ -70,7 +70,7 @@ env:
     - PKG_NAME=irredsol
     - PKG_NAME=json
     - PKG_NAME=jupyterkernel
-#    - PKG_NAME=jupyterviz # default 22 DIFFS | no pkg 22 DIFFS | all pkg 22 DIFFS
+    - PKG_NAME=jupyterviz
     - PKG_NAME=kan
     - PKG_NAME=kbmag
     - PKG_NAME=laguna
@@ -94,7 +94,7 @@ env:
 #    - PKG_NAME=polycyclic # default PASS | no pkg PASS | all pkg 2 DIFFS
 #    - PKG_NAME=polymaking # default 5 DIFFS | no pkg 5 DIFFS | all pkg 5 DIFFS
     - PKG_NAME=primgrp
-#    - PKG_NAME=profiling # default 1 DIFFS | no pkg 1 DIFFS | all pkg 1 DIFFS
+    - PKG_NAME=profiling
     - PKG_NAME=qpa
     - PKG_NAME=radiroot
 #    - PKG_NAME=rcwa # default 12 DIFFS | no pkg 12 DIFFS | all pkg 13 DIFFS
