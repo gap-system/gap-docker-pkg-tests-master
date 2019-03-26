@@ -95,7 +95,6 @@ env:
 #    - PKG_NAME=polymaking # default 5 DIFFS | no pkg 5 DIFFS | all pkg 5 DIFFS
     - PKG_NAME=primgrp
 #    - PKG_NAME=profiling # default 1 DIFFS | no pkg 1 DIFFS | all pkg 1 DIFFS
-    - PKG_NAME=qaos
     - PKG_NAME=qpa
     - PKG_NAME=radiroot
 #    - PKG_NAME=rcwa # default 12 DIFFS | no pkg 12 DIFFS | all pkg 13 DIFFS
