@@ -39,6 +39,7 @@ env:
     - PKG_NAME=cvec
 #    - PKG_NAME=datastructures # default PASS | no pkg PASS | all pkg 1 DIFFS
     - PKG_NAME=deepthought
+    - PKG_NAME=design
     - PKG_NAME=digraphs
     - PKG_NAME=example
     - PKG_NAME=factint
