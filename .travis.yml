@@ -50,7 +50,7 @@ env:
     - PKG_NAME=format
     - PKG_NAME=forms
     - PKG_NAME=fplsa
-    - PKG_NAME=fr
+#    - PKG_NAME=fr
     - PKG_NAME=francy
 #    - PKG_NAME=gbnp # default 1 DIFFS | no pkg 1 DIFFS | all pkg 1 DIFFS
     - PKG_NAME=genss
@@ -65,7 +65,7 @@ env:
 #    - PKG_NAME=help # default 1 DIFFS | no pkg 1 DIFFS | all pkg 1 DIFFS
     - PKG_NAME=idrel
     - PKG_NAME=images
-    - PKG_NAME=intpic
+#    - PKG_NAME=intpic
     - PKG_NAME=io
     - PKG_NAME=irredsol
     - PKG_NAME=json
