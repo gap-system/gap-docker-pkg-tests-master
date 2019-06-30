@@ -85,7 +85,6 @@ env:
     - PKG_NAME=repsn
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
-    - PKG_NAME=semigroups
     - PKG_NAME=sglppow
     - PKG_NAME=sgpviz
     - PKG_NAME=simpcomp
