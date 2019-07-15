@@ -36,6 +36,7 @@ env:
     - PKG_NAME=deepthought
     - PKG_NAME=design
     - PKG_NAME=digraphs
+#    - PKG_NAME=edim # currently broken on master
     - PKG_NAME=example
     - PKG_NAME=factint
     - PKG_NAME=fga
