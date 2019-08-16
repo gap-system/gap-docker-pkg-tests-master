@@ -36,6 +36,7 @@ env:
     - PKG_NAME=deepthought
     - PKG_NAME=design
     - PKG_NAME=digraphs
+    - PKG_NAME=edim
     - PKG_NAME=example
     - PKG_NAME=factint
     - PKG_NAME=fga
@@ -73,7 +74,6 @@ env:
     - PKG_NAME=monoidalcategories
     - PKG_NAME=normalizinterface
     - PKG_NAME=nq
-    - PKG_NAME=packagemanager
     - PKG_NAME=patternclass
     - PKG_NAME=permut
     - PKG_NAME=polenta
