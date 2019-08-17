@@ -21,6 +21,7 @@ env:
     - PKG_NAME=anupq
     - PKG_NAME=autodoc
     - PKG_NAME=automata
+    - PKG_NAME=autpgrp
     - PKG_NAME=carat
     - PKG_NAME=circle
     - PKG_NAME=cohomolo
@@ -87,7 +88,6 @@ env:
     - PKG_NAME=scscp
     - PKG_NAME=sglppow
     - PKG_NAME=sgpviz
-    - PKG_NAME=simpcomp
     - PKG_NAME=singular
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
