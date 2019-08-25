@@ -29,7 +29,6 @@ env:
     - PKG_NAME=crime
     - PKG_NAME=crisp
     - PKG_NAME=crypting
-    - PKG_NAME=cryst
     - PKG_NAME=crystcat
     - PKG_NAME=cubefree
     - PKG_NAME=curlinterface
