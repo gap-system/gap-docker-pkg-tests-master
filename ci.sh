@@ -9,7 +9,7 @@ SRCDIR=${SRCDIR:-$PWD}
 echo SRCDIR   : $SRCDIR
 echo PKG_NAME : $PKG_NAME
 
-cd /home/gap/inst/${GAPDIRNAME}
+cd ${GAP_HOME}
 
 make testpackage PKGNAME=$PKG_NAME
 
