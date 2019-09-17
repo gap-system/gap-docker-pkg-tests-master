@@ -8,7 +8,7 @@ env:
   global:
     - GAPCONTAINER="gapsystem/gap-docker-master"
 
-matrix:
+  matrix:
     - PKG_NAME=ace
     - PKG_NAME=aclib
     - PKG_NAME=alnuth
