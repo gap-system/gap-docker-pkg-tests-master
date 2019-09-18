@@ -130,10 +130,10 @@ services:
   - docker
 
 before_install:
+  - docker version
   - docker pull ${GAPCONTAINER}
 
 script:
-  - docker version
   - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "PKG_NAME=${PKG_NAME} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
 
 notifications:
