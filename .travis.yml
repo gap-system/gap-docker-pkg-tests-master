@@ -104,7 +104,7 @@ env:
     - PKG_NAME=sglppow
     - PKG_NAME=sgpviz
     #- PKG_NAME=simpcomp
-    - PKG_NAME=singular
+    #- PKG_NAME=singular
     #- PKG_NAME=sla
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
