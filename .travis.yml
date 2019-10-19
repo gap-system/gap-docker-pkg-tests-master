@@ -16,7 +16,7 @@ env:
     #- PKG_NAME=atlasrep
     - PKG_NAME=autodoc
     - PKG_NAME=automata
-    #- PKG_NAME=automgrp
+    - PKG_NAME=automgrp
     - PKG_NAME=autpgrp
     - PKG_NAME=carat
     - PKG_NAME=circle
@@ -31,7 +31,7 @@ env:
     - PKG_NAME=cubefree
     - PKG_NAME=curlinterface
     - PKG_NAME=cvec
-    - PKG_NAME=datastructures
+    # - PKG_NAME=datastructures
     - PKG_NAME=deepthought
     - PKG_NAME=design
     - PKG_NAME=digraphs
@@ -83,12 +83,12 @@ env:
     - PKG_NAME=nq
     - PKG_NAME=numericalsgps
     #- PKG_NAME=openmath
-    #- PKG_NAME=orb
+    - PKG_NAME=orb
     #- PKG_NAME=packagemanager
     - PKG_NAME=patternclass
     - PKG_NAME=permut
     - PKG_NAME=polenta
-    #- PKG_NAME=polycyclic
+    - PKG_NAME=polycyclic
     #- PKG_NAME=polymaking
     - PKG_NAME=primgrp
     - PKG_NAME=profiling
@@ -104,7 +104,7 @@ env:
     - PKG_NAME=sglppow
     - PKG_NAME=sgpviz
     #- PKG_NAME=simpcomp
-    #- PKG_NAME=singular
+    - PKG_NAME=singular
     #- PKG_NAME=sla
     - PKG_NAME=smallgrp
     - PKG_NAME=smallsemi
