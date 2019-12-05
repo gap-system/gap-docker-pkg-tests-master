@@ -18,7 +18,7 @@ env:
     - PKG_NAME=automata
     - PKG_NAME=automgrp
     - PKG_NAME=autpgrp
-    - PKG_NAME=carat
+    - PKG_NAME=caratinterface
     - PKG_NAME=circle
     - PKG_NAME=cohomolo
     - PKG_NAME=congruence
