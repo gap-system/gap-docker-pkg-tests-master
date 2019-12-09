@@ -19,6 +19,7 @@ env:
     - PKG_NAME=automgrp
     - PKG_NAME=autpgrp
     - PKG_NAME=caratinterface
+    - PKG_NAME=cddinterface
     - PKG_NAME=circle
     - PKG_NAME=cohomolo
     - PKG_NAME=congruence
@@ -81,6 +82,7 @@ env:
     - PKG_NAME=matgrp
     - PKG_NAME=modisom
     - PKG_NAME=monoidalcategories
+    - PKG_NAME=nconvex
     - PKG_NAME=nock
     - PKG_NAME=normalizinterface
     - PKG_NAME=nq
