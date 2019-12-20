@@ -57,7 +57,7 @@ env:
     - PKG_NAME=grpconst
     - PKG_NAME=guarana
     - PKG_NAME=guava
-    - PKG_NAME=hap
+    # - PKG_NAME=hap
     # - PKG_NAME=hapcryst
     - PKG_NAME=hecke
     # - PKG_NAME=help
@@ -106,7 +106,7 @@ env:
     - PKG_NAME=repsn
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
-    - PKG_NAME=semigroups
+    # - PKG_NAME=semigroups
     - PKG_NAME=sglppow
     - PKG_NAME=sgpviz
     # - PKG_NAME=simpcomp
