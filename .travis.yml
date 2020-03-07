@@ -32,7 +32,7 @@ env:
     - PKG_NAME=cubefree
     - PKG_NAME=curlinterface
     - PKG_NAME=cvec
-    # - PKG_NAME=datastructures
+    - PKG_NAME=datastructures
     - PKG_NAME=deepthought
     - PKG_NAME=design
     - PKG_NAME=difsets
@@ -83,6 +83,7 @@ env:
     - PKG_NAME=modisom
     - PKG_NAME=monoidalcategories
     - PKG_NAME=nconvex
+    - PKG_NAME=nilmat
     - PKG_NAME=nock
     - PKG_NAME=normalizinterface
     - PKG_NAME=nq
@@ -103,6 +104,7 @@ env:
     # - PKG_NAME=rcwa
     - PKG_NAME=rds
     # - PKG_NAME=recog
+    - PKG_NAME=repndecomp
     - PKG_NAME=repsn
     - PKG_NAME=resclasses
     - PKG_NAME=scscp
@@ -124,7 +126,7 @@ env:
     # - PKG_NAME=transgrp
     - PKG_NAME=unipot
     - PKG_NAME=unitlib
-    # - PKG_NAME=utils
+    - PKG_NAME=utils
     - PKG_NAME=uuid
     - PKG_NAME=walrus
     - PKG_NAME=wedderga
