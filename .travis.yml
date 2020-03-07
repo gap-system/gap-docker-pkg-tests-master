@@ -26,7 +26,7 @@ env:
     - PKG_NAME=crime
     - PKG_NAME=crisp
     - PKG_NAME=crypting
-    - PKG_NAME=cryst
+    # - PKG_NAME=cryst
     - PKG_NAME=crystcat
     # - PKG_NAME=ctbllib
     - PKG_NAME=cubefree
@@ -86,7 +86,7 @@ env:
     - PKG_NAME=nock
     - PKG_NAME=normalizinterface
     - PKG_NAME=nq
-    - PKG_NAME=numericalsgps
+    # - PKG_NAME=numericalsgps
     # - PKG_NAME=openmath
     - PKG_NAME=orb
     # - PKG_NAME=packagemanager
@@ -121,7 +121,7 @@ env:
     - PKG_NAME=thelma
     - PKG_NAME=tomlib
     - PKG_NAME=toric
-    - PKG_NAME=transgrp
+    # - PKG_NAME=transgrp
     - PKG_NAME=unipot
     - PKG_NAME=unitlib
     # - PKG_NAME=utils
